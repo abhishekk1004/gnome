@@ -99,4 +99,4 @@ def chatbot_view(request):
         except Exception as e:
             return JsonResponse({"error": str(e)}, status=500)
 
-    return render(request, "chatbot.html")
+    return render(request,"chatbot.html")
